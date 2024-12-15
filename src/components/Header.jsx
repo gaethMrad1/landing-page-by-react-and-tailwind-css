@@ -1,6 +1,6 @@
 function Header({data}) {
   return (
-    <header className="w-full h-screen relative top-[70px] bg-cover bg-center bg-no-repeat" id="top" style={{backgroundImage: "url('../img/intro-bg.jpg')"}}>
+    <header className="w-full h-screen relative top-[70px] bg-cover bg-center bg-no-repeat" id="top" style={{backgroundImage: "url('https://gaethMrad1.github.io/landing-page-by-react-and-tailwind-css/img/intro-bg.jpg')"}}>
         <div className="w-full h-full bg-introSectionColor">
             <div className="container mx-auto h-full flex justify-center items-center">
                 <div className="w-full md:w-[780px] text-white flex flex-col items-center">
