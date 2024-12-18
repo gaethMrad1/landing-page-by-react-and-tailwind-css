@@ -2,7 +2,7 @@ function About({data}) {
   return (
     <section className="about bg-white py-[100px]" id="about">
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-2">
-            <img className="max-w-full mx-auto md:mx-0" src="./img/about.jpg" alt="" />
+            <img className="max-w-full mx-auto md:mx-0" src="https://gaethMrad1.github.io/landing-page-by-react-and-tailwind-css/img/about.jpg" alt="" />
             <div>
                 <h1 className="uppercase mx-auto md:mx-0 w-fit mb-[15px] pb-[15px] relative text-[#333] text-[36px] before:content-[''] before:absolute before:bottom-0 before:left-0 before:bg-blue-700 before:w-[40%] before:h-[5px] before:rounded-full">About Us</h1>
                 <p className="my-[30px] text-[#777] text-center md:text-start">{data && data.paragraph}</p>
